@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Screenshots
+1. Start with 1 minute:
+![start at a minute](https://user-images.githubusercontent.com/42478354/88483061-774c6b00-cf33-11ea-95ef-a98b98c3c1b3.PNG)
+2. More than halfway completed:
+![more than halfway](https://user-images.githubusercontent.com/42478354/88483069-86cbb400-cf33-11ea-88f7-6e5ffb0873ea.PNG)
+3. Within 20 seconds:
+![within 20 seconds](https://user-images.githubusercontent.com/42478354/88483068-84695a00-cf33-11ea-83c5-eeb4921d98fa.PNG)
+4. Blinking within 10 seconds:
+![blinking within 10](https://user-images.githubusercontent.com/42478354/88483064-7c111f00-cf33-11ea-9847-280d2fd852e9.PNG)
+5. Times up:
+![times up](https://user-images.githubusercontent.com/42478354/88483063-79aec500-cf33-11ea-877a-82b7a7a08e00.PNG)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +79,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
