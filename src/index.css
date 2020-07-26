@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#newTimeInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  width: 30%;
+}
+
+@media (max-width: 535px) {
+  #newTimeInputContainer {
+      flex-direction: column;
+      width: 50%;
+      justify-content: center;
+  }
+
+  #newTimeInputContainer > h5 {
+    text-align:center;
+    align-self: center;
+  }
+
+  #newTimeInputContainer > input {
+    margin: 10px 0px;
+    text-align: center;
+    align-self: center;
+  }
+
+  #newTimeInputContainer > .btn {
+    margin: auto;
+  }
+}
+
+#newTimeInputContainer > * {
+  margin: auto 10px;
+}
+
+#newTimeInputContainer > input {
+  width: 50%;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+#newTimeInputContainer > .btn {
+  width: 75px;
+  background-color: rgb(200,240,240);
+  border-color: black;
+}
+
+#parentButtonContainer {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+#parentButtonContainer > .btn:active {
+  background-color: rgb(180,200,200);
+
+}
+
+#speedButtonContainer { 
+  margin-top: 10px;
+}
+
+#speedButtonContainer > * {
+  margin: auto 5px;
+  width: 75px;
+  background-color: rgb(200,240,240);
+  border-color: black;
+}
+
+#speedButtonContainer > .btn:focus {
+  background-color: rgb(180,200,200);
+}
+
+#speedButtonContainer > .btn:active {
+  background-color: rgb(180,200,200);
+}
